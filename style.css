@@ -1,0 +1,16 @@
+.container {
+  margin-top: 40px;
+  background-color: #999;
+  height: 600px;
+  width: 80%;
+}
+
+.dropdown {
+  margin-left: 20%;
+  margin-top:80px;
+}
+.header{
+  width: 80%;
+  height: 40px;
+  background-color: #333;
+}

@@ -1,16 +1,39 @@
 <!DOCTYPE html>
 <html>
   <header>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
-    <script language="javascript" type="text/javascript" src="jquery-1.8.3.js"></script>
-    <script language="javascript" type="text/javascript">
-      $(function(){
-        alert("My First Jquery Test");
-      });
-    </script>
   </header>
+
   <body>
-    <h1>Human (in progress)</h1>
-    <p>Project one: make light and dark themes.</p>
+    <div class="header">
+
+      <p>just learnin'</p>
+
+    </div>
+    <div class="container">
+      <div class="dropdown">
+        <button><i class="icon-home icon-large"></i></button>
+
+        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Community</button>
+        <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Recent Activity</a></li>
+          <li role="presentation" class="divider"></li>
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Member Forum</a></li>
+          <li role="presentation" class="divider"></li>
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Member List</a></li>
+          <li role="presentation" class="divider"></li>
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Member Groups</a></li>
+        </ul>
+        <button class="btn btn-default dropdown-toggle" type="button">Pet Help</button>
+        <button class="btn btn-default dropdown-toggle" type="button">Pets for Sale</button>
+        <button class="btn btn-default dropdown-toggle" type="button">Pet Services</button>
+      </div>
+    </div>
+
   </body>
 </html>
