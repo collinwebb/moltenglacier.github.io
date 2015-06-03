@@ -1,3 +1,9 @@
+body {
+  background-color: #ddd;
+  color: #101;
+}
+
+
 button {
   background-color: inherit;
 }
@@ -6,3 +12,7 @@ button {
   background-color: #333;
   color: #eee;
   }
+
+.navbar-text {
+  margin: auto;
+}

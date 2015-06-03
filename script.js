@@ -3,6 +3,8 @@ $(document).ready(function(){
 
   function themeButton(){
     $("body").toggleClass("darkTheme");
+    $("nav").toggleClass("navbar-inverse");
+    $("nav").toggleClass("navbar-default")
   };
 
 });
