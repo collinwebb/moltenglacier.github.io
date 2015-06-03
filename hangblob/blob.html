@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="blob.js"></script>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../style.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <h1 class="text-center">Welcome to Hangblob!</h1>
+      <h2 class="text-center">hangman with a blob</h2>
+
+      <br><br>
+
+      <row>
+
+        <div class="col-xs-6 col-sm-offset-3 text-center">
+          <canvas id="hangman" width="100%" height="100%"></canvas>
+        </div>
+
+        <div class="col-xs-6 col-sm-offset-3 text-center">
+          <h2 class="text-success" id="word"></h2>
+        </div>
+
+      </row>
+      <row>
+        <h2 class="col-xs-12 text-center" id="end"></h2>
+      </row>
+
+      <row>
+        <h3 class="col-xs-12 text-center" id="sub-end"></h3>
+      </row>
+    </div class="container">
+  </body>
+
+
+</html>
