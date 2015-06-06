@@ -5,11 +5,23 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     <script src="blob.js"></script>
+    <script src="script.js"></script>
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="style.css">
   </head>
 
-  <body>
+  <body class="darkTheme" id="blob">
+
+    <nav class="navbar navbar-inverse navbar-fixed">
+      <div class="container-fluid">
+        <h1 class="navbar-text brand">cw</h1>
+        <button type="button" class="btn navbar-btn navbar-right" id="themeButton">Change Theme</button>
+        <button type="button" class="btn navbar-btn navbar-right" id="hangBlob">Play Hangblob</button>
+        <button type="button" class="btn navbar-btn navbar-right active" onClick="location.href='index.html'" id="about">About</button>
+      </div>
+    </nav>
+
+
     <div class="container">
       <h1 class="text-center">Welcome to Hangblob!</h1>
       <h2 class="text-center">hangman with a blob</h2>
@@ -23,12 +35,12 @@
         </div>
 
         <div class="col-xs-6 col-sm-offset-3 text-center">
-          <h2 class="text-success" id="word"></h2>
+          <h2 id="word"></h2>
         </div>
 
       </row>
       <row>
-        <h2 class="col-xs-12 text-center" id="end"></h2>
+        <h3 class="col-xs-12 text-center" id="end"></h3>
       </row>
 
       <row>

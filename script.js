@@ -6,5 +6,4 @@ $(document).ready(function(){
     $("nav").toggleClass("navbar-inverse");
     $("nav").toggleClass("navbar-success")
   };
-
 });

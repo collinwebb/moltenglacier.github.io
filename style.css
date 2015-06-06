@@ -2,9 +2,13 @@ body {
   background-color: #555;
   background: url(galaxy.jpg) no-repeat center center fixed;
   background-size: 100% 100%;
-  color: #fdf;
+  color: #dff;
+  text-shadow: black 0.1em 0.1em 0.2em;
 }
 
+#blob {
+  background: url(galaxy2.jpg) no-repeat center center fixed;
+}
 
 button {
   background-color: inherit;
@@ -12,7 +16,7 @@ button {
 
 .darkTheme {
   background-color: #282828;
-  color: #eee;
+  color: #ddd;
   }
 
 .navbar-text {
