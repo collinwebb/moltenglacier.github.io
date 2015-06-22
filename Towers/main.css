@@ -1,0 +1,19 @@
+body{
+  background-color: #dcd
+}
+.container{
+ margin-top: 10%;
+}
+div .tower {
+ background-color:#868 ;
+ border:1px solid #cac ;
+ border-width: thin;
+ padding: 0;
+}
+div .story-space{
+  height: 20px;
+}
+div .story{
+  background-color: #b5b;
+
+}
